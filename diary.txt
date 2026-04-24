@@ -1,0 +1,4 @@
+Diary Entry 1: I started learning File I/O in Python today.
+Diary Entry 2: Using the 'with' syntax makes file handling very easy.
+program8.py problem check it , for more details
+Hi , I am Ashu , practicing file I/O
