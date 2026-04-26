@@ -15,7 +15,7 @@ that prints a general welcome message and school rules (without taking the self 
 and call the get_average() method for both students.
 '''
 
-print("===OOPS Concept===", end="\n\n")
+print("\n===OOPS Concept===", end="\n\n")
 
 class Student:
     school = "OOPS IN PYTHON"
