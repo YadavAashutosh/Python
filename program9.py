@@ -12,7 +12,7 @@ average score.
 4. Static Method: Use the @staticmethod decorator to create a method portal_greeting() 
 that prints a general welcome message and school rules (without taking the self parameter).
 5. Execution: Create at least two different student objects, call the static method once, 
-and call the get_average() method for both students.
+and call the get_average() method for both students
 '''
 
 print("\n===OOPS Concept===", end="\n\n")
