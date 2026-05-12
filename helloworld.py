@@ -1,1 +1,1 @@
-print("Trying Github: \n Push ","pull" ,"fetch ...")
+print("Trying Github: \n Push ","pull" ,"fetch ..")
