@@ -98,3 +98,104 @@ print(list(map(str , lst)))
 j = "".join(list(map(str,lst)))
 print(j)
 print("hello ashu how are u ".split())
+
+# group anagram
+
+class GrpAnagram:
+    def ang (self,lst ):
+        dict1= {}
+        for i in lst :
+            s = sorted(i)
+            j = "".join(s)
+            if j in dict1.keys() :
+                dict1[j].append(i)
+            else:
+                dict1.update({j:[i]})
+        return list(dict1.values())
+ob = GrpAnagram()
+print(ob.ang(["eat","tea","tan","ate","nat","bat"]))
+
+# palindrome 
+def palindrome(x):
+   temp = x
+   rev = 0 
+   while temp >0:
+        rev = rev*10 + temp%10
+        temp = temp // 10
+   return rev == x
+
+print(palindrome(1234321))
+print(palindrome(123421))
+
+#fibbonacci 
+
+def fib(n):
+    if n==0:
+        return 0
+    a=0
+    b=1
+    
+    for i in range (n-1):
+        c=a+b
+        a=b
+        b=c
+    return b 
+
+print(fib(5))
+
+# full fib 
+def fib(n):
+    if n==0:
+        print("0")
+    a=0
+    b=1
+    for i in range(n):
+        print(a , end = " ")
+        a,b = b,a+b
+fib(6)
+
+# class fib 
+class Fibs:
+    
+    def fib(self, n):
+        if n==0:
+            return 0
+        a=0
+        b=1
+    
+        for i in range (n-1):
+            c=a+b
+            a=b
+            b=c
+        return b
+    def fibn (self, n):
+        lst = [ ]
+        for i in range(n):
+            lst.append(self.fib(i))
+        return lst 
+ob = Fibs()
+print(ob.fibn(5))
+    
+# recursion
+
+class Recur:
+    def fib(self,n):
+        if n==0 or n==1:
+            return n
+        return self.fib(n-1) + self.fib(n-2)
+ob = Recur()
+print(ob.fib(4))
+
+
+# prime 
+ 
+
+def prime(n):
+    if n<2:
+        return False
+    for i in range (2,(n//2 +1) ):
+        if n%i==0:
+            return False
+    return True
+
+print(prime(10))
