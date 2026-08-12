@@ -199,3 +199,23 @@ def prime(n):
     return True
 
 print(prime(10))
+
+# 12 10
+# [0, 1]
+# None
+# [0, 1, 1, 2, 3, 4, 5]
+# -1
+# 6
+# [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
+# [0, 1, 2, 5, 6, 7]
+# ashu
+# ['1', '2', '0', '7', '5', '6']
+# 120756
+# ['hello', 'ashu', 'how', 'are', 'u']
+# [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
+# True
+# False
+# 5
+# 0 1 1 2 3 5 [0, 1, 1, 2, 3]
+# 3
+# False
